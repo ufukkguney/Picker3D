@@ -48,12 +48,16 @@ public class PlayerMovement : MonoBehaviour
                 curPosTemp = curPosition;
 
             curPosDelta = curPosition - curPosTemp;
+            if (transform.position.x + curPosDelta.x < 1.25f && transform.position.x + curPosDelta.x > -1.25f)
+            {
                 transform.position += new Vector3(curPosDelta.x, 0, 0) * Time.deltaTime * 65f;
+            }
+                
             curPosTemp = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
         }
     }
 
-    //if checkpoint send a event keep move
+    //if collectplatform send a event keep move
     public void AnimationDoneKeepMove()
     {
             rb.drag = 0;
