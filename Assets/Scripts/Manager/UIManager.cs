@@ -20,7 +20,6 @@ public class UIManager : CustomBehaviour
         UIPanels.ForEach(x =>
         {
             x.Initialize(this);
-            //x.gameObject.SetActive(false);
         });
         StartPanel.ShowPanel();
     }

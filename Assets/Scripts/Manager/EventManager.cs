@@ -13,19 +13,6 @@ public class EventManager : CustomBehaviour
     public Action OnLevelFinish;
     public Action OnStartNewLevel;
 
-    #region Initialize
-
-    public override void Initialize(GameManager gameManager)
-    {
-        base.Initialize(gameManager);
-    }
-
-    private void OnDestroy()
-    {
-    }
-
-    #endregion
-
     public void GameStart()
     {
         OnGameStart?.Invoke();

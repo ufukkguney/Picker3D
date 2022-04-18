@@ -17,16 +17,12 @@ public class DataManager : CustomBehaviour
 
     private void LevelDone()
     {
-        Debug.Log("before level ID : " + UserData.CurrentLevelId);
         UserData.CurrentLevelId++;
         UserData.MainLevelId++;
-        Debug.Log("after level ID : " + UserData.CurrentLevelId);
-
     }
 
     public void CheckIsAllLevelsFinish()
     {
-        Debug.Log(UserData.CurrentLevelId + "--" + GameManager.LevelManager.Levels.Length);
         if (UserData.CurrentLevelId >= GameManager.LevelManager.Levels.Length - 1)
         {
             UserData.CurrentLevelId = 0;

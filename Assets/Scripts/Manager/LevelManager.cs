@@ -41,7 +41,7 @@ public class LevelManager : CustomBehaviour
     private void BringTheLevel(Level levelData, Vector3 position, int levelID)
     {
         LevelGeneric currentLevel = Instantiate(_levelGeneric, position, Quaternion.identity);
-        currentLevel.currentLevel = levelData;
+        currentLevel.CurrentLevel = levelData;
         currentLevel.CurrentLevelId = levelID;
         currentLevel.Initialize(GameManager);
     }

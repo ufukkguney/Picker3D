@@ -9,6 +9,4 @@ public class Capsule : CarryableBase
         base.OnTarget();
 
     }
-
-
 }

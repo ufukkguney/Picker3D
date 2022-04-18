@@ -22,12 +22,10 @@ public class FinishPanel : UIPanel
     }
     private void OpenThePanel()
     {
-        Debug.Log("ui panel from open the panel");
         FailPanel.gameObject.SetActive(true);
     }
     private void OpenTheSuccesPanel()
     {
-        Debug.Log("ui panel from open the panel");
         CompletedPanel.gameObject.SetActive(true);
     }
 

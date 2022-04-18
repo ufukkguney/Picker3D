@@ -11,24 +11,24 @@ public class PlayerController : PlayerElement
 
         GameManager.EventManager.OnDrag += Dragging;
         GameManager.EventManager.OnCheckpointDone += CheckpointDone;
-        GameManager.EventManager.OnLevelFinish += LevelDone;
         GameManager.EventManager.OnStartNewLevel += NewLevelStart;
+        GameManager.EventManager.OnGameStart += SetPosition;
+
     }
     private void OnDestroy()
     {
         GameManager.EventManager.OnDrag -= Dragging;
         GameManager.EventManager.OnCheckpointDone -= CheckpointDone;
-        GameManager.EventManager.OnLevelFinish -= LevelDone;
         GameManager.EventManager.OnStartNewLevel -= NewLevelStart;
+        GameManager.EventManager.OnGameStart -= SetPosition;
+
 
     }
     private void FixedUpdate()
     {
         if (Player.Data.PlayerState == PlayerState.OnRoad)
         {
-
             Rigidbody.velocity = Vector3.forward * Time.deltaTime * Player.Data.SpeedTime;
-            //Rigidbody.AddForce(Vector3.forward * Time.deltaTime * Player.Data.SpeedTime, ForceMode.VelocityChange);
         }
     }
 
@@ -62,7 +62,10 @@ public class PlayerController : PlayerElement
         }
 
     }
-
+    private void SetPosition()
+    {
+        Player.transform.position += Vector3.forward * 45 * (UserData.MainLevelId);
+    }
 
     public void CanGoForward(PlayerState playerState, bool isKinematic)
     {
@@ -72,12 +75,7 @@ public class PlayerController : PlayerElement
 
     private void CheckpointDone()
     {
-        Debug.Log("checkpoint Done : ");
         CanGoForward(PlayerState.OnRoad, false);
-    }
-    private void LevelDone()
-    {
-        //CanGoForward(PlayerState.OnFinish,false);
     }
     private void NewLevelStart()
     {
@@ -92,13 +90,8 @@ public class PlayerController : PlayerElement
     private IEnumerator IsCheckpointDone(float time)
     {
         yield return new WaitForSeconds(time);
-        if (!Rigidbody.isKinematic)
+        if (Rigidbody.isKinematic)
         {
-            Debug.Log("its continue");
-        }
-        else
-        {
-            Debug.Log("its fail !!");
             GameManager.EventManager.ItsFail();
         }
     }

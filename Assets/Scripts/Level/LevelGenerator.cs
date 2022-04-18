@@ -6,12 +6,12 @@ using UnityEngine;
 
 public class LevelGenerator : CustomBehaviour
 {
-    public Level currentLevel;
-    [SerializeField] private GameObject[] avaliableObjects;
-    [SerializeField] private LayerMask groundLayer;
+    public Level CurrentLevel;
+    [SerializeField] private GameObject[] _avaliableObjects;
+    [SerializeField] private LayerMask _groundLayer;
 
-    public GameObject[] AvaliableObjects => avaliableObjects;
-    public LayerMask GroundLayer => groundLayer;
+    public GameObject[] AvaliableObjects => _avaliableObjects;
+    public LayerMask GroundLayer => _groundLayer;
 
     private Transform mapHolder;
     private Dictionary<string, GameObject> objToNameMap = new Dictionary<string, GameObject>();
@@ -20,8 +20,8 @@ public class LevelGenerator : CustomBehaviour
 
     public void GenerateLevel(Level level)
     {
-        currentLevel = level;
-        if (currentLevel == null)
+        CurrentLevel = level;
+        if (CurrentLevel == null)
             return;
 
         CreateObjMap();
@@ -31,7 +31,7 @@ public class LevelGenerator : CustomBehaviour
     private void CreateObjMap()
     {
         objToNameMap = new Dictionary<string, GameObject>();
-        foreach (var obj in avaliableObjects)
+        foreach (var obj in _avaliableObjects)
         {
             objToNameMap.Add(obj.name, obj);
         }
@@ -55,15 +55,15 @@ public class LevelGenerator : CustomBehaviour
    
     private void SpawnTiles()
     {
-        for (int i = 0; i < currentLevel.levelObjects.Count; i++)
+        for (int i = 0; i < CurrentLevel.levelObjects.Count; i++)
         {
-            CreateObject(currentLevel.levelObjects[i]);
+            CreateObject(CurrentLevel.levelObjects[i]);
         }
     }
 
     public GameObject CreateNewObject(Level.LevelObjectData data)
     {
-        currentLevel.levelObjects.Add(data);
+        CurrentLevel.levelObjects.Add(data);
         return CreateObject(data);
     }
 

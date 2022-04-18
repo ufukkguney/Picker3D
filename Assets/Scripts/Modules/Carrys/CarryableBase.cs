@@ -7,11 +7,7 @@ public class CarryableBase : CustomBehaviour
 {
     [SerializeField] private BoxCollider _boxCollider;
     public bool IsCollide;
-    public override void Initialize(GameManager gameManager)
-    {
-        base.Initialize(gameManager);
-        
-    }
+
     public virtual void OnTarget()
     {
         IsCollide = true;

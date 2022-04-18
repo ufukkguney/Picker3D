@@ -14,14 +14,12 @@ public class PlayerView : PlayerElement
         if (other.CompareTag("checkpoint"))
         {
             other.enabled = false;
-            Debug.Log("checkpoint !!");
             Player.Controller.CanGoForward(PlayerState.OnCheckPoint,true);
             Player.Controller.IsCheck(2);
         }
         else if (other.CompareTag("finish"))
         {
             other.enabled = false;
-            Debug.Log("finish !!");
             Player.Controller.CanGoForward(PlayerState.OnFinish, true);
             GameManager.EventManager.ItsLevelDone();
         }

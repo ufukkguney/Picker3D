@@ -11,21 +11,16 @@ public class LevelGeneric : LevelGenerator
     {
         base.Initialize(gameManager);
 
-        //foreach (Checkpoint checkpoint in Checkpoints)
-        //{
-        //    checkpoint.Initialize(gameManager);
-        //}
         for (int i = 0; i < Checkpoints.Length; i++)
         {
             Checkpoints[i].CheckpointNeededAmount = 5 * (i + 1) + (CurrentLevelId);
             Checkpoints[i].Initialize(gameManager);
-
         }
     }
 
     private void Start()
     {
-        if (currentLevel)
-            GenerateLevel(currentLevel);
+        if (CurrentLevel)
+            GenerateLevel(CurrentLevel);
     }
 }

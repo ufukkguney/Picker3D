@@ -7,9 +7,10 @@ public class Checkpoint : CustomBehaviour
 {
     public int CheckpointNeededAmount;
     [SerializeField]  private Transform _endpos;
-    private int _counter;
     [SerializeField] private TextMeshPro _counterText;
+    private int _counter;
     private bool _isFail, _isDone;
+
     public override void Initialize(GameManager gameManager)
     {
         base.Initialize(gameManager);

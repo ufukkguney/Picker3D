@@ -19,18 +19,8 @@ public class PlayerMain : CustomBehaviour
         Data.Initialize(gameManager);
         View.Initialize(gameManager);
         Controller.Initialize(gameManager);
-
-        GameManager.EventManager.OnGameStart += SetPosition;
-
-    }
-    private void OnDestroy()
-    {
-        GameManager.EventManager.OnGameStart += SetPosition;
     }
 
-    private void SetPosition()
-    {
-        transform.position += Vector3.forward * 45 * (UserData.MainLevelId );
-    }
+    
 }
 

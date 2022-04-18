@@ -30,8 +30,6 @@ public class CameraManager : CustomBehaviour
         Vector3 desiredPosition = _target.position + Offset;
         Vector3 smoothedPosition = Vector3.Lerp(Camera.main.transform.position, desiredPosition, SmoothSpeed);
         Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, smoothedPosition.y, smoothedPosition.z);
-
-        //Camera.main.transform.LookAt(_target);
     }
 
 }
