@@ -37,13 +37,6 @@ public class PlayerController : PlayerElement
         if (deltaPos.magnitude > 0 && Player.Data.PlayerState != PlayerState.OnFinish)
         {
             Player.Data.PlayerState = PlayerState.OnRoad;
-            //Vector3 test;
-            ////Debug.Log("pos drag : " + test.x);
-            //float dragValue = test.x;
-            //dragValue = Mathf.Clamp(dragValue, -1.5f, 1.5f);
-            //Debug.Log("pos drag : " + dragValue);
-
-            Debug.Log("Loc : " + Player.Data.PlayerLocation);
             if (Player.Data.PlayerLocation == PlayerLocation.OnMiddle)
             {
                 Rigidbody.AddForce(Vector3.right * Time.deltaTime * deltaPos.x * 8000, ForceMode.VelocityChange);
@@ -66,7 +59,6 @@ public class PlayerController : PlayerElement
                     Rigidbody.AddForce(new Vector3(tempX, 0, 0), ForceMode.VelocityChange);
                 }
             }
-
         }
 
     }
@@ -80,11 +72,12 @@ public class PlayerController : PlayerElement
 
     private void CheckpointDone()
     {
+        Debug.Log("checkpoint Done : ");
         CanGoForward(PlayerState.OnRoad, false);
     }
     private void LevelDone()
     {
-        CanGoForward(PlayerState.OnFinish,false);
+        //CanGoForward(PlayerState.OnFinish,false);
     }
     private void NewLevelStart()
     {

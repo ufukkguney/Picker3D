@@ -7,7 +7,6 @@ public class Capsule : CarryableBase
     public override void OnTarget()
     {
         base.OnTarget();
-        Debug.Log("capsule");
 
     }
 

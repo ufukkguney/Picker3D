@@ -9,11 +9,12 @@ public class Checkpoint : CustomBehaviour
     [SerializeField]  private Transform _endpos;
     private int _counter;
     [SerializeField] private TextMeshPro _counterText;
-    private bool _isFail;
+    private bool _isFail, _isDone;
     public override void Initialize(GameManager gameManager)
     {
         base.Initialize(gameManager);
         GameManager.EventManager.OnFail += ItsFail;
+        UpdateText();
     }
     private void OnDestroy()
     {
@@ -31,12 +32,12 @@ public class Checkpoint : CustomBehaviour
         {
             if (!collision.transform.GetComponent<CarryableBase>().IsCollide)
             {
-                _counter++;
-                _counterText.text = _counter.ToString();
                 collision.transform.GetComponent<CarryableBase>().OnTarget();
-                if (CheckpointNeededAmount <= _counter)
+                _counter++;
+                UpdateText();
+                if (CheckpointNeededAmount <= _counter && !_isDone)
                 {
-                    GameManager.EventManager.CheckpointSucces();
+                    _isDone = true;
                     SendThePlatform();
                 }
             }
@@ -45,6 +46,14 @@ public class Checkpoint : CustomBehaviour
 
     private void SendThePlatform()
     {
-        transform.DOMoveY(0, .5f);
+        transform.DOMoveY(0, .5f).OnComplete(() => 
+        {
+            GameManager.EventManager.CheckpointSucces(); 
+        }); ;
+    }
+
+    private void UpdateText()
+    {
+        _counterText.text = _counter.ToString() + " / " + CheckpointNeededAmount;
     }
 }

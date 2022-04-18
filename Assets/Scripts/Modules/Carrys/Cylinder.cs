@@ -8,7 +8,5 @@ public class Cylinder : CarryableBase
     {
         base.OnTarget();
 
-        Debug.Log("cylinder");
-
     }
 }
