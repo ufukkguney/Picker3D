@@ -1,0 +1,640 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0e61e3983746944a2308f1d20e7147, type: 3}
+  m_Name: level 6
+  m_EditorClassIdentifier: 
+  levelObjects:
+  - position: {x: -1.5837884, y: 0.5, z: -4.1819787}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.4036076, y: 0.5, z: -3.8281412}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.1992329, y: 0.5, z: -3.5539584}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.99091256, y: 0.5, z: -3.1418266}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.69804883, y: 0.5, z: -3.4792285}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.4835626, y: 0.5, z: -3.8269925}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.23279071, y: 0.5, z: -4.1904545}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.6853155, y: 0.5, z: -4.296749}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.9666548, y: 0.5, z: -4.2840896}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.3335291, y: 0.5, z: -4.3160796}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.6345654, y: 0.5, z: -1.0621371}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.59982836, y: 0.5, z: -1.5506668}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.6626228, y: 0.5, z: -2.1653795}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.97352844, y: 0.5, z: -2.211623}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.3296491, y: 0.5, z: -2.2090535}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.5531375, y: 0.5, z: -2.1796505}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.5207219, y: 0.5, z: -1.8540428}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.51985, y: 0.5, z: -1.6562202}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.4068267, y: 0.5, z: -1.1777568}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.4043636, y: 0.5, z: -0.81791687}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.0223781, y: 0.5, z: -0.9068618}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.76588273, y: 0.5, z: -0.8397832}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.144016, y: 0.5, z: 2.0859387}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.1379538, y: 0.5, z: 1.7101831}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.0998335, y: 0.5, z: 0.98934364}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.7535081, y: 0.5, z: 0.75039077}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.39819717, y: 0.5, z: 0.8733945}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.27026594, y: 0.5, z: 1.3269889}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.40920627, y: 0.5, z: 1.7694995}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.7626288, y: 0.5, z: 2.070456}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.2001773, y: 0.5, z: 1.2460887}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.1942703, y: 0.5, z: -1.2011765}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.57847357, y: 0.5, z: -0.7729347}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.037165523, y: 0.5, z: -0.32971668}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.8633444, y: 0.5, z: 0.46890044}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.40083885, y: 0.5, z: 0.026416063}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.4655704, y: 0.5, z: -0.5000026}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.9232429, y: 0.5, z: -0.14984751}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.23017716, y: 0.5, z: 0.24927354}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.21476424, y: 0.5, z: 0.62808585}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.66698825, y: 0.5, z: 0.92349935}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.4605179, y: 0.5, z: 10.772677}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.9143679, y: 0.5, z: 10.695384}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.35083818, y: 0.5, z: 10.638685}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.105452776, y: 0.5, z: 10.723017}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.3739164, y: 0.5, z: 11.556577}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.9782145, y: 0.5, z: 12.065281}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.7470684, y: 0.5, z: 12.690109}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.42047405, y: 0.5, z: 13.196211}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.31156957, y: 0.5, z: 11.589603}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.65621495, y: 0.5, z: 12.174084}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.2841835, y: 0.5, z: 12.664519}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.7719779, y: 0.5, z: 13.385931}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.56911945, y: 0.5, z: 15.275399}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.33451915, y: 0.5, z: 15.4004545}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.96078026, y: 0.5, z: 15.476282}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.1075271, y: 0.5, z: 14.7946205}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.5015594, y: 0.5, z: 14.328154}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.115677595, y: 0.5, z: 14.323702}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.78570676, y: 0.5, z: 14.502893}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.0847349, y: 0.5, z: 15.580812}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Sphere
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.93575644, y: 0.5, z: 17.605362}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.049525976, y: 0.5, z: 18.22993}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.5652066, y: 0.5, z: 18.370987}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.338865, y: 0.5, z: 17.191465}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.2598163, y: 0.5, z: 16.833641}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.4937327, y: 0.5, z: 16.828236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.25803947, y: 0.5, z: 17.486813}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.8712928, y: 0.5, z: 18.00291}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.36870694, y: 0.5, z: 18.835266}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.59889936, y: 0.5, z: 18.512272}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.2303659, y: 0.5, z: 33.533672}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.0716025, y: 0.5, z: 33.078094}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.0385462, y: 0.5, z: 32.26932}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.0543089, y: 0.5, z: 30.671167}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.188763, y: 0.5, z: 29.437878}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.145308, y: 0.5, z: 28.458755}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.7158371, y: 0.5, z: 28.579733}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.5936676, y: 0.5, z: 29.395496}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.4200585, y: 0.5, z: 31.919538}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.35101056, y: 0.5, z: 33.204506}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.23818707, y: 0.5, z: 34.09572}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.72006357, y: 0.5, z: 34.164673}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.3213197, y: 0.5, z: 33.399094}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.55369043, y: 0.5, z: 32.638287}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.3212055, y: 0.5, z: 31.924746}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.4794736, y: 0.5, z: 30.967953}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.0740529, y: 0.5, z: 31.115828}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.3785294, y: 0.5, z: 30.575005}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.3855191, y: 0.5, z: 29.899883}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.5249504, y: 0.5, z: 30.11739}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.369086, y: 0.5, z: 28.936123}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.72718215, y: 0.5, z: 33.501198}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.46574056, y: 0.5, z: 32.739758}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.2223365, y: 0.5, z: 32.739475}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.21079683, y: 0.5, z: 33.026165}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.1966189, y: 0.5, z: 31.48121}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.3424053, y: 0.5, z: 31.808088}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.7405821, y: 0.5, z: 31.051456}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.14999413, y: 0.5, z: 31.28354}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.1121695, y: 0.5, z: 34.23319}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.4856117, y: 0.5, z: 34.478535}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.9311793, y: 0.5, z: 31.97556}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.0590464, y: 0.5, z: 34.054695}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.7982095, y: 0.5, z: 32.530823}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.7762201, y: 0.5, z: 32.980366}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.986033, y: 0.5, z: 29.92586}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.7219766, y: 0.5, z: 31.082653}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.10593867, y: 0.5, z: 33.498173}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.683333, y: 0.5, z: 28.650013}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.6821299, y: 0.5, z: 29.62524}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.728017, y: 0.5, z: 30.513992}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.8415264, y: 0.5, z: 31.376034}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.706306, y: 0.5, z: 32.339996}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.8592873, y: 0.5, z: 33.37398}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.8143857, y: 0.5, z: 34.14929}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: -1.763659, y: 0.5, z: 34.64086}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Capsule
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.661979, y: 0.5, z: 29.404886}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.625189, y: 0.5, z: 30.627625}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.6449327, y: 0.5, z: 31.493332}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.5701554, y: 0.5, z: 32.56375}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.560992, y: 0.5, z: 33.72065}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.0377384, y: 0.5, z: 34.663853}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.312308, y: 0.5, z: 34.528145}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.910746, y: 0.5, z: 33.482826}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cylinder
+    instantiatedObject: {fileID: 0}

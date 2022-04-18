@@ -27,14 +27,15 @@ public class LevelManager : CustomBehaviour
 
     public void GameStart()
     {
-        BringTheLevel(Levels[UserData.CurrentLevelId], Vector3.forward * 45 * UserData.CurrentLevelId, 1);
+        BringTheLevel(Levels[UserData.CurrentLevelId], Vector3.forward * 45 * UserData.MainLevelId, UserData.MainLevelId);
 
-        BringTheLevel(Levels[UserData.CurrentLevelId + 1], Vector3.forward * 45 * (UserData.CurrentLevelId + 1), 1);
+        BringTheLevel(Levels[UserData.CurrentLevelId + 1], Vector3.forward * 45 * (UserData.MainLevelId + 1), UserData.CurrentLevelId + 1);
 
     }
     private void LevelDone()
     {
-        BringTheLevel(Levels[UserData.CurrentLevelId + 1], Vector3.forward * 45 * (UserData.CurrentLevelId + 1), 1);
+        GameManager.DataManager.CheckIsAllLevelsFinish();
+        BringTheLevel(Levels[UserData.CurrentLevelId + 1], Vector3.forward * 45 * (UserData.MainLevelId + 1), UserData.CurrentLevelId + 1);
     }
 
     private void BringTheLevel(Level levelData, Vector3 position, int levelID)

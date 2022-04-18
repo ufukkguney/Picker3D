@@ -22,11 +22,11 @@ public class PlayerController : PlayerElement
         GameManager.EventManager.OnStartNewLevel -= NewLevelStart;
 
     }
-    private void Update()
+    private void FixedUpdate()
     {
         if (Player.Data.PlayerState == PlayerState.OnRoad)
         {
-            
+
             Rigidbody.velocity = Vector3.forward * Time.deltaTime * Player.Data.SpeedTime;
             //Rigidbody.AddForce(Vector3.forward * Time.deltaTime * Player.Data.SpeedTime, ForceMode.VelocityChange);
         }
@@ -39,11 +39,11 @@ public class PlayerController : PlayerElement
             Player.Data.PlayerState = PlayerState.OnRoad;
             if (Player.Data.PlayerLocation == PlayerLocation.OnMiddle)
             {
-                Rigidbody.AddForce(Vector3.right * Time.deltaTime * deltaPos.x * 8000, ForceMode.VelocityChange);
+                Rigidbody.AddForce(Vector3.right * Time.deltaTime * deltaPos.x * 7500, ForceMode.VelocityChange);
             }
             else if (Player.Data.PlayerLocation == PlayerLocation.OnRight)
             {
-                float tempX = Vector3.right.x * Time.deltaTime * deltaPos.x * 8000;
+                float tempX = Vector3.right.x * Time.deltaTime * deltaPos.x * 7500;
 
                 if (tempX < 0)
                 {
@@ -52,7 +52,7 @@ public class PlayerController : PlayerElement
             }
             else if (Player.Data.PlayerLocation == PlayerLocation.OnLeft)
             {
-                float tempX = Vector3.right.x * Time.deltaTime * deltaPos.x * 8000;
+                float tempX = Vector3.right.x * Time.deltaTime * deltaPos.x * 7500;
 
                 if (tempX > 0)
                 {

@@ -30,7 +30,7 @@ public class PlayerMain : CustomBehaviour
 
     private void SetPosition()
     {
-        transform.position += Vector3.forward * 45 * (UserData.CurrentLevelId );
+        transform.position += Vector3.forward * 45 * (UserData.MainLevelId );
     }
 }
 

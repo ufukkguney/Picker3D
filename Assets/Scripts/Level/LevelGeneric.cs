@@ -17,7 +17,7 @@ public class LevelGeneric : LevelGenerator
         //}
         for (int i = 0; i < Checkpoints.Length; i++)
         {
-            Checkpoints[i].CheckpointNeededAmount = 5 * (i + 1) * CurrentLevelId;
+            Checkpoints[i].CheckpointNeededAmount = 5 * (i + 1) + (CurrentLevelId);
             Checkpoints[i].Initialize(gameManager);
 
         }

@@ -27,7 +27,7 @@ public class InGamePanel : UIPanel
 
     private void UpdateText()
     {
-        _levelText.text = "Level " + (UserData.CurrentLevelId + 1);
+        _levelText.text = "Level " + (UserData.MainLevelId + 1);
     }
 
     private void UpdateTextErase()

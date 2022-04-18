@@ -16,7 +16,7 @@ public class PlayerView : PlayerElement
             other.enabled = false;
             Debug.Log("checkpoint !!");
             Player.Controller.CanGoForward(PlayerState.OnCheckPoint,true);
-            Player.Controller.IsCheck(1.5f);
+            Player.Controller.IsCheck(2);
         }
         else if (other.CompareTag("finish"))
         {

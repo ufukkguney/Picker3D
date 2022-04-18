@@ -15,6 +15,7 @@ public class LevelEditor : Editor
     private const int PAINT_TOOL_ID = 1;
     private const string LEVELS_PATH = "Assets/Resources/Levels/";
     private static string levelName = "";
+    private static string completeCount;
 
     private static LevelGenerator generator;
     private static Level level;
@@ -106,6 +107,16 @@ public class LevelEditor : Editor
         {
             NewLevel();
         }
+
+        GUI.Label(new Rect(sceneView.position.width - 170, 180, 70, 20), "LEVELID");
+        completeCount = EditorGUI.TextField(new Rect(sceneView.position.width - 100, 180, 50, 20), completeCount);
+
+        if (completeCount != null && completeCount != "")
+        {
+            int tempLevelID = Int32.Parse(completeCount);
+            UserData.CurrentLevelId = (tempLevelID - 1);
+        }
+        
     }
 
     static void DrawLeftPanel(SceneView sceneView)
@@ -231,7 +242,7 @@ public class LevelEditor : Editor
         {
             if (hit.collider.gameObject)
             {
-                Level.LevelObjectData data = new Level.LevelObjectData(hit.point, Quaternion.identity, Vector3.one * .1f, SelectedObjectId);
+                Level.LevelObjectData data = new Level.LevelObjectData(hit.point, Quaternion.identity, Vector3.one * .15f, SelectedObjectId);
                 generator.CreateNewObject(data);
 
             }
@@ -257,7 +268,7 @@ public class LevelEditor : Editor
     {
         if (string.IsNullOrEmpty(levelName))
         {
-            EditorUtility.DisplayDialog("Level name empty", "Set level name before loading", "YEP", "YEP");
+            EditorUtility.DisplayDialog("Level name empty", "Set level name before loading ", "YEP", "YEP");
             return;
         }
 

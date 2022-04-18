@@ -75,7 +75,7 @@ public class LevelGenerator : CustomBehaviour
         var instance = Instantiate(GetPrefab(data.prefebName), mapHolder);
         instance.transform.localPosition = data.position;
         instance.transform.rotation = data.rotation;
-        instance.transform.localScale = data.scale + Vector3.one * .1f;
+        instance.transform.localScale = data.scale;
 
         data.instantiatedObject = instance;
         return instance;

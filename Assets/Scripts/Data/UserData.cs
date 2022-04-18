@@ -13,4 +13,13 @@ public static class UserData
             PlayerPrefs.SetInt("CurrentLevelId", value);
         }
     }
+    public static int MainLevelId
+    {
+        get => PlayerPrefs.GetInt("MainLevelId", 0);
+
+        set
+        {
+            PlayerPrefs.SetInt("MainLevelId", value);
+        }
+    }
 }
