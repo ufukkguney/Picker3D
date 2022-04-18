@@ -1756,7 +1756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rertry
+  m_Text: Continue
 --- !u!222 &1584610994
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1855,6 +1855,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 368854f8a5eeca84c83c843b7dbf8e3d, type: 2}
   - {fileID: 11400000, guid: 0b3ab27485c2c7a4ba1d95fcaf5ee308, type: 2}
   - {fileID: 11400000, guid: bbb7033627a28334f84f9bdf18b910e6, type: 2}
+  - {fileID: 11400000, guid: 3a132df772b49754e80fefd70884ad95, type: 2}
+  - {fileID: 11400000, guid: ba8967dc324d1c346ad42f3d0c80fd4f, type: 2}
+  - {fileID: 11400000, guid: daa9375b431a8d24192d769c576c9833, type: 2}
+  - {fileID: 11400000, guid: f385da1c81b81c746b66e3737e993b23, type: 2}
+  - {fileID: 11400000, guid: f31b75cde85c93c49935ff48967e1934, type: 2}
+  - {fileID: 11400000, guid: 2e57e8ad001e9c442883085a2847b59d, type: 2}
+  - {fileID: 11400000, guid: 76be51c10cbd5a4489f6f5677b119bad, type: 2}
   _levelGeneric: {fileID: 8857947605468191525, guid: 898b2e9c8c7b1384fb894f58f556cd92,
     type: 3}
 --- !u!4 &1800837657

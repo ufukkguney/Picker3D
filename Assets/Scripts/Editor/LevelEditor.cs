@@ -115,6 +115,7 @@ public class LevelEditor : Editor
         {
             int tempLevelID = Int32.Parse(completeCount);
             UserData.CurrentLevelId = (tempLevelID - 1);
+            UserData.MainLevelId = (tempLevelID - 1);
         }
         
     }

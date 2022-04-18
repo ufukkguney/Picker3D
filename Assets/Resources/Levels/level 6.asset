@@ -13,56 +13,6 @@ MonoBehaviour:
   m_Name: level 6
   m_EditorClassIdentifier: 
   levelObjects:
-  - position: {x: -1.5837884, y: 0.5, z: -4.1819787}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -1.4036076, y: 0.5, z: -3.8281412}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -1.1992329, y: 0.5, z: -3.5539584}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -0.99091256, y: 0.5, z: -3.1418266}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -0.69804883, y: 0.5, z: -3.4792285}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -0.4835626, y: 0.5, z: -3.8269925}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -0.23279071, y: 0.5, z: -4.1904545}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -0.6853155, y: 0.5, z: -4.296749}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -0.9666548, y: 0.5, z: -4.2840896}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
-  - position: {x: -1.3335291, y: 0.5, z: -4.3160796}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
-    scale: {x: 0.15, y: 0.15, z: 0.15}
-    prefebName: Cube
-    instantiatedObject: {fileID: 0}
   - position: {x: 0.6345654, y: 0.5, z: -1.0621371}
     rotation: {x: -0, y: -0, z: -0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
@@ -637,4 +587,74 @@ MonoBehaviour:
     rotation: {x: -0, y: -0, z: -0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cylinder
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.84200495, y: 0.5, z: 4.336135}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.6494831, y: 0.5, z: 3.9930897}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.4356326, y: 0.5, z: 3.61202}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.20007366, y: 0.5, z: 3.1727223}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: -0.028109193, y: 0.5, z: 2.766369}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.39602464, y: 0.5, z: 2.7858977}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 0.73333824, y: 0.5, z: 2.8558655}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.1355649, y: 0.5, z: 2.8330278}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.5346, y: 0.5, z: 2.8676062}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.8365581, y: 0.5, z: 2.947944}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.6512427, y: 0.5, z: 3.235116}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.4410421, y: 0.5, z: 3.517077}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.248559, y: 0.5, z: 3.8966846}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
+    instantiatedObject: {fileID: 0}
+  - position: {x: 1.0060632, y: 0.5, z: 4.14207}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 0.15, y: 0.15, z: 0.15}
+    prefebName: Cube
     instantiatedObject: {fileID: 0}

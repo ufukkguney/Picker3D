@@ -27,7 +27,7 @@ public class LevelManager : CustomBehaviour
 
     public void GameStart()
     {
-        BringTheLevel(Levels[UserData.CurrentLevelId], Vector3.forward * 45 * UserData.MainLevelId, UserData.MainLevelId);
+        BringTheLevel(Levels[UserData.CurrentLevelId], Vector3.forward * 45 * UserData.MainLevelId, UserData.CurrentLevelId);
 
         BringTheLevel(Levels[UserData.CurrentLevelId + 1], Vector3.forward * 45 * (UserData.MainLevelId + 1), UserData.CurrentLevelId + 1);
 
