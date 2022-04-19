@@ -14,377 +14,377 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelObjects:
   - position: {x: -1.0539436, y: 0.5, z: 2.8473668}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -1.0376935, y: 0.5, z: 2.2519932}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -1.1256838, y: 0.5, z: 1.631016}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -1.0846443, y: 0.5, z: 0.72994184}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -1.1478243, y: 0.5, z: 0.9059564}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -0.677557, y: 0.5, z: 2.7201}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -0.30114555, y: 0.5, z: 2.605056}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -0.38418007, y: 0.5, z: 1.8415159}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -0.71878004, y: 0.5, z: 1.444361}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -0.386024, y: 0.5, z: 1.1137275}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: 0.32072258, y: 0.5, z: 0.40676856}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -0.05163431, y: 0.5, z: 0.5316758}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -1.2713575, y: 0.5, z: 0.9818678}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Capsule
     instantiatedObject: {fileID: 0}
   - position: {x: -1.2000422, y: 0.5, z: 17.23037}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.5803013, y: 0.5, z: 17.118496}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.18540335, y: 0.5, z: 16.998108}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.81753445, y: 0.5, z: 16.810453}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.09405708, y: 0.5, z: 15.890074}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.92375994, y: 0.5, z: 15.046442}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -1.3080559, y: 0.5, z: 14.3669815}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.80740976, y: 0.5, z: 14.153418}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.033510208, y: 0.5, z: 14.361705}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.71840954, y: 0.5, z: 14.2476635}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.37056398, y: 0.5, z: 15.273539}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.8973713, y: 0.5, z: 31.91846}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.8119755, y: 0.5, z: 31.067968}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.8483815, y: 0.5, z: 30.070637}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.7826352, y: 0.5, z: 28.719296}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.84473133, y: 0.5, z: 29.117905}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.77780676, y: 0.5, z: 27.815285}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.9589381, y: 0.5, z: 32.367027}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.5352473, y: 0.5, z: 32.26106}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.2917366, y: 0.5, z: 31.566006}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.37819767, y: 0.5, z: 30.837524}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.19235325, y: 0.5, z: 30.06551}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.05728388, y: 0.5, z: 28.633577}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.0025901794, y: 0.5, z: 29.043377}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.40024424, y: 0.5, z: 27.693422}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.31006098, y: 0.5, z: 32.016495}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.0139978, y: 0.5, z: 33.02793}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.2724073, y: 0.5, z: 33.583115}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.82921386, y: 0.5, z: 32.34944}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.08633375, y: 0.5, z: 32.80842}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.9383731, y: 0.5, z: 32.93977}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -1.2324047, y: 0.5, z: 33.447876}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.017542362, y: 0.5, z: 27.629948}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.1177537, y: 0.5, z: 27.019978}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.55719113, y: 0.5, z: 27.286545}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.6553011, y: 0.5, z: 27.007635}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -0.78853846, y: 0.5, z: 26.511448}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -1.158361, y: 0.5, z: 25.761621}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -1.2401266, y: 0.5, z: 16.514044}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.73667955, y: 0.5, z: 16.26371}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.102698326, y: 0.5, z: 15.262268}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.39122534, y: 0.5, z: 14.79272}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.05121231, y: 0.5, z: 13.409622}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.030148983, y: 0.5, z: 12.545433}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.0017299652, y: 0.5, z: 11.714802}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.75576925, y: 0.5, z: 11.094655}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -1.4678969, y: 0.5, z: 11.207104}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.32455683, y: 0.5, z: 11.1397915}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.12614584, y: 0.5, z: 17.402973}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 0.07503319, y: 0.5, z: 18.000465}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.3444376, y: 0.5, z: 18.622429}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: -0.77823687, y: 0.5, z: 18.777147}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Cube
     instantiatedObject: {fileID: 0}
   - position: {x: 1.0015173, y: 0.5, z: 28.435232}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.24333, y: 0.5, z: 29.685616}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.4890857, y: 0.5, z: 30.988037}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.4890857, y: 0.5, z: 30.988037}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 1.5688577, y: 0.5, z: 31.989649}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.9622669, y: 0.5, z: 30.378971}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: 0.67768097, y: 0.5, z: 29.4809}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -1.2575927, y: 0.5, z: 29.080578}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -1.2430401, y: 0.5, z: 30.15009}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
   - position: {x: -1.7104416, y: 0.5, z: 31.296738}
-    rotation: {x: -0, y: -0, z: -0, w: 1}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
     scale: {x: 0.15, y: 0.15, z: 0.15}
     prefebName: Sphere
     instantiatedObject: {fileID: 0}
